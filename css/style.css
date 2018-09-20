@@ -54,9 +54,7 @@ ol {
 	margin: 0;
 }
 
-/*---------------------
-	Helper CSS
------------------------*/
+
 .spad {
 	padding-top: 125px;
 	padding-bottom: 110px;
@@ -85,11 +83,7 @@ ol {
 	background-size: cover;
 }
 
-/*------------------------
-  Common Elements
---------------------------*/
 
-/* Preloder */
 #preloder {
 	position: fixed;
 	width: 100%;
@@ -142,7 +136,6 @@ ol {
 	}
 }
 
-/* Site Buttons */
 .site-btn {
 	display: inline-block;
 	text-transform: uppercase;
@@ -208,7 +201,7 @@ ol {
 	color: #808181 !important;
 }
 
-/* Image Popup */
+
 .img-popup-warp .mfp-content,
 .img-popup-warp.mfp-ready.mfp-removing .mfp-content {
 	opacity: 0;
@@ -227,7 +220,7 @@ ol {
 	transform: scale(1);
 }
 
-/* Fact box */
+
 .fact-box {
 	height: 375px;
 	display: table;
@@ -328,7 +321,7 @@ ol {
 	background: #cacaca;
 }
 
-/* Icon Box */
+
 .icon-box {
 	text-align: center;
 	display: inline-block;
@@ -353,9 +346,7 @@ ol {
 	transition: all 0.3s;
 }
 
-/*---------------------
-	Header section
------------------------*/
+
 .header-section {
 	padding: 50px 40px;
 	background: #f2f7f8;
@@ -378,9 +369,7 @@ ol {
 	margin-top: 15px;
 }
 
-/*---------------------
-	Hero section
------------------------*/
+
 .hero-section {
 	background: #f2f7f8;
 }
@@ -431,9 +420,7 @@ ol {
 	margin-bottom: 0;
 }
 
-/*---------------------
-	Social section
------------------------*/
+
 .wrapper {
   position: absolute;
   top: 80%;
@@ -442,15 +429,12 @@ ol {
   width: 500px;
 }
 
-/* Style the Un-order list by setting its list-style to none */
 .wrapper ul {
 	padding-left:20px;
   list-style: none;
 }
 
-/* Style the list items inside the UL list, by setting its width, height and line-height 
-  and float them to left and set its border and border-radius.
- */
+
 .wrapper ul li {
 	
   width: 70px;
@@ -465,17 +449,14 @@ ol {
   transition: all 0.5s ease;
 }
 
-/* Style the icons by setting its color and margin-top value to 20px 
-to align it properly */
+
 .wrapper ul li .fa {
   color: #d9dde2;
   margin-top: 20px;
   transition: all 0.5s ease;
 }
 
-/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
-  to icons for glowing effect and use transition property for smooth transition effect. */
-/*facebook*/
+
 .wrapper ul li:hover.facebook {
   border: 5px solid #3b5998;
   box-shadow: 0 0 15px #3b5998;
@@ -488,7 +469,6 @@ to align it properly */
   transition: all 0.5s ease;
 }
 
-/*twitter*/
 .wrapper ul li:hover.twitter {
   border: 5px solid #00aced;
   box-shadow: 0 0 15px #00aced;
@@ -501,7 +481,7 @@ to align it properly */
   transition: all 0.5s ease;
 }
 
-/* instagram */
+
 .wrapper ul li:hover.instagram {
   border: 5px solid #000000;
   box-shadow: 0 0 15px #000000;
@@ -514,7 +494,6 @@ to align it properly */
   transition: all 0.5s ease;
 }
 
-/* google */
 .wrapper ul li:hover.google {
   border: 5px solid #dd4b39;
   box-shadow: 0 0 15px #dd4b39;
@@ -527,7 +506,6 @@ to align it properly */
   transition: all 0.5s ease;
 }
 
-/* whatsapp */
 .wrapper ul li:hover.whatsapp {
   border: 5px solid #4dc247;
   box-shadow: 0 0 15px #4dc247;
@@ -540,9 +518,7 @@ to align it properly */
   transition: all 0.5s ease;
 }
 
-/*---------------------
-	Resume section
-----------------------*/
+
 .resume-section.with-bg {
 	background-image: url(../img/resume-bg.jpg);
 	background-repeat: no-repeat;
@@ -594,9 +570,6 @@ to align it properly */
 	margin-bottom: 0;
 }
 
-/*---------------------
-	Review section
------------------------*/
 .review-slider {
 	padding-left: 150px;
 }
@@ -640,9 +613,6 @@ to align it properly */
 	font-size: 16px;
 }
 
-/*---------------------
-	Portfolio section
-----------------------*/
 .portfolio-warp {
 	padding: 0 60px;
 }
@@ -690,9 +660,6 @@ to align it properly */
 }
 
 
-/*---------------------
-	Contact section
------------------------*/
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
@@ -709,9 +676,7 @@ h1 {
                blink-caret .2s step-end infinite alternate;
 }
 
-/*---------------------
-	Footer section
------------------------*/
+
 .footer-section {
 	background: #40424a;
 	padding: 20px 0;
